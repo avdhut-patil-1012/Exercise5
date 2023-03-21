@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* extra propertise */
+
+.outer-container{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(75, 57, 60);
+}
+
+.container{
+    margin: 0px 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* header section */
+
+.container-0{
+    align-items: center;
+    color: antiquewhite;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+/* first paragraph */
+
+.container-1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: antiquewhite;
+}
+
+.container-1 p{
+    color: orange;
+}
+
+.left-0{
+    width: 50%;
+    padding-right: 20px;
+    text-align: start;
+    border-right: 2px dashed orange;
+}
+
+
+.left{
+    width: 50%;
+    padding-right: 20px;
+    text-align: start;
+    border-right: 2px dashed black;
+}
+
+.right{
+    width: 50%;
+    padding-left: 50px;
+    text-align: start;
+}
+
+.right a{
+    text-decoration: none;
+}
+
+/* second paragraph */
+
+.container-2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.left-1 p{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.right-1{
+    line-height: 20px;
+}
+
+/* second paragraph right side  */
+
+.box{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.box img{
+    width: 25px;
+    height: 25px;
+}
+
+/* main sectoin  */
+
+.box-1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-left{
+    width: 20%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.box-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-right{
+    width: 80%;
+    height: 150px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    border-bottom: 1px solid black;
+    border-right: 0.1px solid black;
+}
+
+.box-right p{
+    margin-top: 10px;
+}
+
+/* form section  */
+
+.container-3{
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+}
+
+.left-form p{
+    margin-top: 20px;
+}
+
+.left-form input{
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+#name-1{
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+/* first button properties */
+
+.btn{
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* all hover effeccts */
+
+ul li a:hover{
+    color: azure;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: brown;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: goldenrod;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.box a:hover{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.box a img:hover{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
